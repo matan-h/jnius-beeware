@@ -22,10 +22,10 @@ but unlike beeware, where it seem the only library written in `Chaquopy` are the
 
 and there both providing very cool utils.
 
-## supported library:
+## supported libraries:
 
-* plyer - ~60%
-* kvdroid.tools - ~80%
+* `plyer` - ~60%
+* `kvdroid.tools` - ~80%
 
 the main blockers are not this implementation, but base chaquopy limitations: especially [#1055](https://github.com/chaquo/chaquopy/issues/1055) (automatic convert `python list`->`java array`) and [#1048](https://github.com/chaquo/chaquopy/issues/1048) (automatic convert `java ArrayList` -> `python list`)
 
