@@ -1,11 +1,11 @@
-# Jnius-beeware - a way to run Jnius on beeware (on chaquopy)
+# Jnius-beeware - a way to run Jnius on beeware
 
 ## why
 
 beeware is a great software. it really simplify the build apps and simple graphics process
 but it has two big limitations:
 
-1. debug - its a strong reference to my other library
+1. debug - its a strong reference to my [other library](https://github.com/matan-h/brbug)
 2. `PyJNIus`
 
 there are (mainly) two frameworks to make android apps in python: `kivy` and `beeware`.
@@ -25,7 +25,7 @@ and there both providing very cool utils.
 ## supported library:
 
 * plyer - ~60%
-* kvdroid - ~80%
+* kvdroid.tools - ~80%
 
 the main blockers are not this implementation, but base chaquopy limitations: especially [#1055](https://github.com/chaquo/chaquopy/issues/1055) (automatic convert `python list`->`java array`) and [#1048](https://github.com/chaquo/chaquopy/issues/1048) (automatic convert `java ArrayList` -> `python list`)
 
