@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "pyjnius"
+version = "0.1.0"
+description = "a way to run Jnius on beeware"
+authors = ["matan-h <matan.honig2@gmail.com>"]
+readme = "README.md"
+[tool.poetry.dependencies]
+python = "^3.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
