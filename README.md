@@ -39,3 +39,10 @@ requires = ["brbug","scoop","git+https://github.com/matan-h/jnius-beeware.git","
 ```
 
 and if you want the auto-complete you can also install it using pip : `pip install git+https://github.com/matan-h/jnius-beeware.git`.
+
+then you need to import it before the jnius modules:
+```python
+...
+import pyjnius
+...
+```
